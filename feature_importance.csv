@@ -1,0 +1,28 @@
+Feature,Importance
+num__Online boarding,0.1553100220166551
+num__Inflight wifi service,0.13724048546851644
+cat__Class_Business,0.08653973054837365
+cat__Type of Travel_Personal Travel,0.06837819963306292
+num__Inflight entertainment,0.059345423549775504
+cat__Type of Travel_Business travel,0.042095602591829505
+num__Seat comfort,0.04107329170485428
+num__Ease of Online booking,0.03932332738989423
+num__Leg room service,0.03280058486523074
+cat__Class_Eco,0.032089909201877105
+num__Flight Distance,0.02968526076413122
+num__Age,0.028678306719162213
+num__On-board service,0.027058436672655273
+cat__Customer Type_Loyal Customer,0.02660490745861708
+num__Baggage handling,0.02588984097552572
+cat__Customer Type_disloyal Customer,0.025286836773458915
+num__Inflight service,0.024323353411145988
+num__Checkin service,0.02429414542932738
+num__Cleanliness,0.02387404626808164
+num__Gate location,0.01514333871644938
+num__Departure/Arrival time convenient,0.013917607026468288
+num__Arrival Delay in Minutes,0.011450174233545532
+num__Food and drink,0.011359819506847415
+num__Departure Delay in Minutes,0.010171356169324809
+cat__Gender_Male,0.003158882257318272
+cat__Gender_Female,0.003040196887026362
+cat__Class_Eco Plus,0.001866913760844818
