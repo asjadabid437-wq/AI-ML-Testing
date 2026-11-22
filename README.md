@@ -30,7 +30,7 @@ To address this requirement, I designed and developed a predictive system that a
 - Perform detailed data analysis.
 - Apply appropriate Machine Learning techniques.
 - Evaluate model performance.
-- Generate accurate passenger satisfaction predictions.
+- Generate passenger satisfaction predictions.
 - Support data-driven business decisions.
 
 ## 🛠️ Technologies & Tools
@@ -60,33 +60,13 @@ To address this requirement, I designed and developed a predictive system that a
 
 ## 🔄 Machine Learning Workflow
 
-**1. Data Understanding**
-
-Analyzing dataset structure, features, and target variables.
-
-**2. Exploratory Data Analysis (EDA)**
-
-Understanding patterns, relationships, and important factors.
-
-**3. Data Preprocessing**
-
-Cleaning data and preparing it for Machine Learning.
-
-**4. Feature Engineering**
-
-Transforming categorical and numerical features into suitable formats.
-
-**5. Model Development**
-
-Building and training Machine Learning models.
-
-**6. Model Evaluation**
-
-Evaluating performance using different classification metrics.
-
-**7. Prediction System**
-
-Developing a system to predict passenger satisfaction based on input information.
+1. **Data Understanding:** Analyzing dataset structure, features, and target variables.
+2. **Exploratory Data Analysis (EDA):** Understanding patterns, relationships, and important factors.
+3. **Data Preprocessing:** Cleaning data and preparing it for Machine Learning.
+4. **Feature Engineering:** Transforming categorical and numerical features.
+5. **Model Development:** Building and training Machine Learning models.
+6. **Model Evaluation:** Evaluating performance using classification metrics.
+7. **Prediction System:** Predicting passenger satisfaction based on input information.
 
 ## 📊 Model Evaluation Metrics
 
@@ -99,6 +79,20 @@ The models are evaluated using:
 - ROC-AUC Score
 - Confusion Matrix
 
+## 📸 Project Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Prediction Interface
+![Prediction Interface](screenshots/prediction.png)
+
+### Prediction Results
+![Prediction Results](screenshots/result.png)
+
+### Model Performance
+![Model Performance](screenshots/model-performance.png)
+
 ## 📁 Project Structure
 
 ```text
@@ -108,18 +102,23 @@ Passenger_Satisfaction_AI/
 │   ├── train.csv
 │   └── test.csv
 │
-├── templates/
-│   └── index.html
+├── screenshots/
+│   ├── home.png
+│   ├── prediction.png
+│   ├── result.png
+│   └── model-performance.png
 │
-├── static/
+├── .vscode/
 │
+├── app.py
 ├── main.py
+├── predict.py
+├── best_passenger_model.pkl
+├── feature_importance.csv
+├── model_comparison_results.csv
 ├── requirements.txt
-├── model.pkl
 └── README.md
 ```
-
-*Note: Update this structure according to your actual project files.*
 
 ## 🚀 Installation & Setup
 
@@ -208,7 +207,7 @@ I independently managed the project development process:
 
 Computer Science Student | AI & Machine Learning Developer
 
-GitHub: [Your GitHub Profile](YOUR_GITHUB_PROFILE_URL)
+GitHub: [My GitHub Profile](YOUR_GITHUB_PROFILE_URL)
 
 ---
 
