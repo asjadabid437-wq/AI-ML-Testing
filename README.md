@@ -71,7 +71,7 @@ To address this requirement, I designed and developed a predictive system that a
 ## 📈 Exploratory Data Analysis (EDA) & Insights
 
 ### Passenger Gender Distribution
-![Passenger Gender Distribution](screenshots/gender-distribution.png)
+<img width="693" height="572" alt="Screenshot 2026-11-22 134421" src="https://github.com/user-attachments/assets/9ba016e8-a6fe-4244-ad8e-b0676fe41901" />
 
 ### Customer Type Distribution
 ![Customer Type Distribution](screenshots/customer-type-distribution.png)
