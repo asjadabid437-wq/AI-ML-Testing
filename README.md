@@ -68,9 +68,29 @@ To address this requirement, I designed and developed a predictive system that a
 6. **Model Evaluation:** Evaluating performance using classification metrics.
 7. **Prediction System:** Predicting passenger satisfaction based on input information.
 
-## 📊 Model Evaluation Metrics
+## 📈 Exploratory Data Analysis (EDA) & Insights
 
-The models are evaluated using:
+### Passenger Gender Distribution
+![Passenger Gender Distribution](screenshots/gender-distribution.png)
+
+### Customer Type Distribution
+![Customer Type Distribution](screenshots/customer-type-distribution.png)
+
+### Satisfaction by Travel Class
+![Satisfaction by Travel Class](screenshots/satisfaction-travel-class.png)
+
+### Passenger Age Distribution
+![Passenger Age Distribution](screenshots/age-distribution.png)
+
+### Feature Correlation Heatmap
+![Feature Correlation Heatmap](screenshots/correlation-heatmap.png)
+
+### Top 15 Passenger Satisfaction Features
+![Top 15 Passenger Satisfaction Features](screenshots/feature-importance.png)
+
+## 📊 Model Evaluation & Results
+
+The models (**Logistic Regression**, **Decision Tree**, and **Random Forest**) are evaluated using:
 
 - Accuracy
 - Precision
@@ -79,7 +99,27 @@ The models are evaluated using:
 - ROC-AUC Score
 - Confusion Matrix
 
-## 📸 Project Screenshots
+### Best Model Performance Summary (Random Forest)
+
+| Metric | Score |
+|---|---|
+| **Test Accuracy** | **96.32%** (0.9632) |
+| **Test Precision** | **97.20%** (0.9720) |
+| **Test Recall** | **94.33%** (0.9433) |
+| **Test F1 Score** | **95.75%** (0.9575) |
+| **Test ROC AUC** | **99.38%** (0.9938) |
+
+### Machine Learning Model Comparison
+![Machine Learning Model Comparison](screenshots/model-comparison.png)
+
+### Final Model Confusion Matrix
+![Final Model Confusion Matrix](screenshots/confusion-matrix.png)
+
+### Terminal Execution & Classification Report
+![Final Testing Results](screenshots/final-testing-results.png)
+![Classification Report](screenshots/classification-report.png)
+
+## 📸 Application Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home.png)
@@ -89,9 +129,6 @@ The models are evaluated using:
 
 ### Prediction Results
 ![Prediction Results](screenshots/result.png)
-
-### Model Performance
-![Model Performance](screenshots/model-performance.png)
 
 ## 📁 Project Structure
 
@@ -106,7 +143,16 @@ Passenger_Satisfaction_AI/
 │   ├── home.png
 │   ├── prediction.png
 │   ├── result.png
-│   └── model-performance.png
+│   ├── gender-distribution.png
+│   ├── customer-type-distribution.png
+│   ├── satisfaction-travel-class.png
+│   ├── age-distribution.png
+│   ├── correlation-heatmap.png
+│   ├── feature-importance.png
+│   ├── model-comparison.png
+│   ├── confusion-matrix.png
+│   ├── final-testing-results.png
+│   └── classification-report.png
 │
 ├── .vscode/
 │
@@ -118,97 +164,3 @@ Passenger_Satisfaction_AI/
 ├── model_comparison_results.csv
 ├── requirements.txt
 └── README.md
-```
-
-## 🚀 Installation & Setup
-
-### Step 1: Clone Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### Step 2: Navigate to Project
-
-```bash
-cd Passenger_Satisfaction_AI
-```
-
-### Step 3: Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### Step 4: Activate Environment
-
-For Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### Step 5: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 6: Run Application
-
-```bash
-python main.py
-```
-
-## 💡 Business Value
-
-This system demonstrates how Machine Learning can help airlines:
-
-- Understand passenger satisfaction.
-- Identify customer experience patterns.
-- Discover areas requiring service improvements.
-- Support better business decisions.
-- Improve customer experience strategies.
-
-## 👨‍💻 My Responsibilities
-
-I independently managed the project development process:
-
-- Understanding client requirements.
-- Data analysis and preprocessing.
-- Feature engineering.
-- Machine Learning model development.
-- Model training and testing.
-- Performance evaluation.
-- Prediction system development.
-- Application testing.
-
-## 🔮 Future Improvements
-
-- Experiment with additional Machine Learning algorithms.
-- Improve prediction performance.
-- Add interactive dashboards.
-- Enhance the user interface.
-- Deploy the system online.
-
-## 📌 Project Information
-
-| Detail | Description |
-|---|---|
-| Project Name | Airline Passenger Satisfaction Prediction |
-| Project Type | Client Project |
-| Domain | Artificial Intelligence & Machine Learning |
-| Development | End-to-End |
-| Status | Developed |
-
-## 👨‍💻 Developer
-
-**Muhammad Asjad Khan**
-
-Computer Science Student | AI & Machine Learning Developer
-
-GitHub: [My GitHub Profile](YOUR_GITHUB_PROFILE_URL)
-
----
-
-*Developed with Python and Machine Learning to solve a real-world business problem.*
